@@ -1,7 +1,12 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"); */
+
 :root {
   --css-primary: #34c94b;
   --css-black: #121212;
   --css-white: #fff;
+}
+body {
+  font-family: "Poppins", sans-serif;
 }
 /*
   1. Use a more-intuitive box-sizing model.
