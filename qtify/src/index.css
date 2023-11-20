@@ -6,7 +6,7 @@
   --css-white: #fff;
 }
 body {
-  background-color: blueviolet;
+  background-color: var(--css-black);
   font-family: "Poppins", sans-serif;
 }
 /*
