@@ -1,14 +1,24 @@
-.section{
-    padding:10px 32px;
-    width: 100%;
+.section {
+  padding: 10px 32px;
+  width: 100%;
 }
 .title {
   font-size: 20px;
   color: var(--css-white);
 }
-.card-container{
-    display: flex;
-    flex-wrap: wrap;
-    row-gap : 10px;
-    column-gap: 42px;
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 42px;
+}
+.section-header {
+  display: flex;
+  justify-content: space-between;
+}
+.section-toggle-btn {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--css-primary);
+  cursor: pointer;
 }

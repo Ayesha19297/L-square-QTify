@@ -1,0 +1,23 @@
+.carousel-container {
+  position: relative;
+}
+.arrow {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.arrow img {
+  height: 100%;
+  width: 100%;
+}
+.arrow-left {
+  left: -12px;
+}
+.arrow-right {
+  right: -12px;
+}
