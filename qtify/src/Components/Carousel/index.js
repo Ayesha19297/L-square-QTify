@@ -2,7 +2,6 @@ import { Virtual, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
-import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Card from "../Card";
 import "./carousel.css";
@@ -16,8 +15,8 @@ const Carousel = ({ btnId, data }) => {
         spaceBetween={30}
         //navigation={true}
         navigation={{
-          nextEl: `#arrow-left-${btnId}`,
-          prevEl: `#arrow-right-${btnId}`,
+          prevEl: `#arrow-left-${btnId}`,
+          nextEl: `#arrow-right-${btnId}`,
         }}
         virtual
       >
