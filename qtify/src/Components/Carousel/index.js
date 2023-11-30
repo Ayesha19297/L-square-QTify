@@ -26,6 +26,7 @@ const Carousel = ({ btnId, data }) => {
               imgSrc={cardData.image}
               label={cardData.title}
               followersCount={cardData.follows}
+              numOfSongs={cardData.songs ? cardData.songs.length : ""}
             />
           </SwiperSlide>
         ))}

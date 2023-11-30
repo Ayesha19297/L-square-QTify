@@ -29,6 +29,7 @@ const Section = ({ btnId, title, data }) => {
               imgSrc={cardData.image}
               label={cardData.title}
               followersCount={cardData.follows}
+              numOfSongs={cardData.songs ? cardData.songs.length : ""}
             />
           ))}
         </div>
