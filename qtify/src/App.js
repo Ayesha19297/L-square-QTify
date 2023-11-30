@@ -6,6 +6,7 @@ import NavBar from "./Components/Navbar";
 import HeroSection from "./Components/HeroSection";
 import Section from "./Components/Section";
 import FilterSection from "./Components/FilterSection";
+import Faq from "./Components/Accordian";
 
 function App() {
   const endpoint = "https://qtify-backend-labs.crio.do/";
@@ -51,6 +52,7 @@ function App() {
           }
         }}
       />
+      <Faq />
     </>
   );
 }
